@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+<<<<<<< HEAD
+    <link rel="stylesheet" href="./main.css">
+    <script src="./js/bootstrap.js"></script>
+=======
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+>>>>>>> daff970 (Typewriter problem solved)
+    <title>Learning to use Bootstrap</title>
+</head>
+
+<body>
+<!--beggining header-->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Get in touch 1-(305)-725-1000</p>
+    </header>
+<!--end header-->
+
+<!--beggining navbar-->
+    <nav class="navbar navbar-expand-lg bg-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span class="text-primary fs-5 fw-bold">ExpertD.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="email" placeholder="Email" aria-label="email">
+                        <button class="btn btn-primary btn-primary-outline-success" type="button">Subscribe</button>
+                    </form>
+            </div>
+        </div>
+    </nav>
+<!--end navbar-->
+
+<!--beggining image slider-->
+    <div id="carousel-example-controls" data-bs-interval="3000" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./assets/slide1.jpg" class="d-block w-100" alt="slide1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./assets/slide2.jpg" class="d-block w-100" alt="slide2">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./assets/slide3.jpg" class="d-block w-100" alt="slide3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-example-controls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-example-controls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<!--end image slider-->
+
+<!--beggining intro-->
+<section class="w-50 mx-auto text-center pt-5" id="intro">
+    <h1 class="p3 fs-2 border-top border-3"><span class="text-primary">Digital Marketing</span> Agency. The ones you should trust</h1>
+    <p class="p-3 fs-4"><span class="text-primary">ExperD.</span> is the agency that will help you build your online presence.</p>
+</section>
+<!--end intro slider-->
+
+<!--beggining services-->
+<section class="container-fluid">
+    <div class="row w-75 mx-auto my-5 sevices-row">
+    <div class="col-lg-6 col-nd-12 col-sm-12 d-flex my-5 icon-wrap">
+        <img src="./assets/development.png" alt="development" width="180" height="160">
+    <div>
+    <h3 class="fs-5 mt-4 px-4 pb-1">Development</h3>
+    <p class="px-4">Web and mobile E-commerce development</p>
+    </div>
+</div>
+    <div class="col-lg-6 col-nd-12 col-sm-12 d-flex my-5 icon-wrap">
+            <img src="./assets/concept.png" alt="branding" width="180" height="160">
+        <div>
+        <h3 class="fs-5 mt-4 px-4 pb-1">Branding</h3>
+        <p class="px-4">Design, conceptualization and implementation of digital products</p>
+    </div>
+    </div>
+    <div class="row w-75 mx-auto my-5 sevices-row">
+        <div class="col-lg-6 col-nd-12 col-sm-12 d-flex my-5 icon-wrap">
+            <img src="./assets/communication.png" alt="communication" width="180" height="160">
+        <div>
+        <h3 class="fs-5 mt-4 px-4 pb-1">Comunication</h3>
+        <p class="px-4">Communication plan designing</p>
+        </div>
+        </div>
+        <div class="col-lg-6 col-nd-12 col-sm-12 d-flex my-5 icon-wrap">
+                <img src="./assets/seo.png" alt="seo" width="180" height="160">
+                <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">SEO</h3>
+            <p class="px-4">Efficiency analysis and optimization of websites </p>
+        </div>
+        </div>
+        </div>
+</section>
+
+
+<!--end services-->
+
+<!--beggining about-->
+<section>
+    <div class="w-75 m-auto text-center" id="team">
+        <h1 class="mb-5 fs-2">Small team,<span class="text-primary"> great results</span></h1>
+        <p class="fs-4">We are always looking for the right kind of people to work with. Are you up for the challenge? We are waiting for you.</p>
+    </div>
+    <div class="mt-5 text-center">
+        <img class="img-fluid" src="./assets/team.jpg" alt="team">
+    </div>
+
+    <div  id="business-premises" class="border-top border-2">
+    <div class="map"></div>
+    <div class="wrapper">
+        <h2>Miami, Florida</h2>
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+        <p class="fs-5 text-body">We decided to be in Miami in order to be close to our clients. We are located in Brickell, 15 minutes from the beach ¡Come by anytime!</p>
+        <section class="d-flex" id="address">
+            <div>
+                <p class="text-primary fs-5">248</p>
+                <p>Sunny days</p>
+            </div>
+            <div>
+                <p class="text-primary fs-5">100%</p>
+                <p>Approved</p>
+            </div>
+            <div>
+                <p class="text-primary fs-5">24 °C</p>
+                <p>Temperature</p>
+            </div>
+    </section>
+    </div>
+</div>
+</div>
+</section>
+
+<!--beggining form section -->
+<section id="seccion-contact" class="border-bottom border-secondary border-2">
+    <div id="bg-contact">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1b2a4e" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+    </div>
+</section>
+<!--end form section -->
+<<<<<<< HEAD
+
+<script src="./js/main.js"></script>
+=======
+<script src="./js/bootstrap.js"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="./main.js"></script>
+>>>>>>> daff970 (Typewriter problem solved)
+</body>
+</html>
+
+
